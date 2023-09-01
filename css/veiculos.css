@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300 & exibir=trocar');
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+.nav-bar{
+    margin-bottom: 45px;
+}
+
+.veiculos{
+    overflow: hidden;
+}
+
+#box-1{
+    margin-bottom: 10px;
+    line-height: 1.0;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#box-1 h2{
+    color: #182d57;
+    font-size: +35px;
+    margin-bottom: 50px;
+}
+
+#box-1 h3{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+#box-2{
+    margin-bottom: 100px;
+}
+
+#box-2 img{
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 0px;
+}
+
+#text-1{
+    text-align: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 30px; 
+    font-family: 'Nanum Gothic', sem serifa;
+    font-family: 'Roboto Flex', sem serifa;
+    font-weight: 90;
+}
+
+.paragrafo{
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: large;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.box-conjunto{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.box-3{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-3 img{
+    width: 100%;
+}
+
+.box-3 p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.box-5{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.box-5 img{
+    width: 100%;
+    overflow: hidden;
+}
+
+#text-2{
+    float: left; 
+    text-align: center;
+    padding-right: 50px;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+#text-2 h2{
+    font-size: 34px;
+    font-weight: 100;
+}
+
+#text-2 li{
+    align-items: baseline;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.box-6 img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.box-6{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6 p{
+    padding-left: 17rem;
+    padding-right: 17rem;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destaque{
+    font-size: 25px;
+    color: #182d57;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+
+    .container-fluid{
+        flex-direction: column;
+    }
+
+    .box-5 #text-2{
+        flex-direction: column-reverse;
+    }
+
+    .box-5{
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+    
+    @media screen and (min-width: 701px) and (max-width: 1024px){
+
+        #box-1 h2{
+            color: #182d57;
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+        
+        #box-1 h3{
+            color: black;
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+
+        #box-2{
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        
+        #box-2 img{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        #text-1{
+            font-size: 15px;
+            margin-bottom: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .bold{
+            font-size: 18px;
+        }
+           
+        .container-fluid{
+            flex-direction: column;
+        }
+    
+        .box-conjunto .box-3{
+            flex-direction: column-reverse;
+        }
+
+        .box-conjunto{
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        .box-3{
+            width: 100%;
+        }
+
+        .box-5 #text-2{
+            flex-direction: column-reverse;
+        }
+    
+        .box-5{
+            display: block;
+            margin-bottom: 50px;
+        }
+
+        .box-6{
+            margin-bottom: 50px;
+        }
+        
+        .box-6 p{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 20px;
+        }
+    }
+
+        @media screen and (min-width: 380px) and (max-width: 701px){
+            #box-1 h2{
+                color: #182d57;
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+            
+            #box-1 h3{
+                color: black;
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+    
+            #box-2{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            #box-2 img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+    
+            #text-1{
+                font-size: 12px;
+                margin-bottom: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+            .bold{
+                font-size: 15px;
+            }
+               
+            .container-fluid{
+                flex-direction: column;
+            }
+        
+            .box-conjunto .box-3{
+                flex-direction: column-reverse;
+            }
+    
+            .box-conjunto{
+                display: block;
+                margin-bottom: 30px;
+            }
+    
+            .box-3{
+                width: 100%;
+            }
+    
+            .box-5 #text-2{
+                flex-direction: column-reverse;
+            }
+        
+            .box-5{
+                display: block;
+                margin-bottom: 30px;
+            }
+    
+            .box-6{
+                margin-bottom: 30px;
+            }
+            
+            .box-6 p{
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 15px;
+            }
+        }
+

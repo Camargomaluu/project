@@ -1,0 +1,979 @@
+/* Links para fontes */
+/* Nivus */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
+/* Quem Somos */
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Mono:ital,wght@0,300;1,300;1,400 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates:wght@200 & family= Poppins:wght@200 & family= Quicksand:wght@300 & display=swap' );
+
+/* Golf */
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300 & exibir=trocar');
+
+@import url('https://fonts.googleapis.com/css2? família= Roboto:ital,wght@0,500;1,500;1,700 & exibir=trocar');
+
+/* Logo */
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@600;700;900 & display =swap');
+
+/* Cocessionário */
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300 & exibir=trocar');
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}  */
+
+.container-fluid{
+    overflow: hidden; 
+}
+
+/* CSS Carrossel */
+#carouselExampleCaptions img{
+    height: 720px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 22;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+
+.carousel-indicators .active{
+    background-color: #65DAF9;
+}
+
+.carousel-item active{
+    text-align: left;
+}
+
+.main{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* CSS Nívus */
+
+.nivus{
+    margin-bottom: 150px;
+    padding: 0% !important;
+    margin: 0% !important;
+    overflow: hidden;
+}
+
+#box_2 h2{
+    color: #182d57;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#box_2 h3{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+#box_2 h2, h3{
+    line-height: 1.0;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#box_3{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.nivus img{
+    width: 3000px; 
+    overflow: hidden;   
+}
+
+#text{
+    float: left; 
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.historia{
+    font-size: large;
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: large;
+    font-size: 20px;
+    align-items: baseline;
+    text-shadow: 1px 1px 2px black;
+    text-align: left;
+}
+
+/* CSS Img interior */
+#interior{
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -mox-linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%);
+    background: -webkit-linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%);
+    background: linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%); 
+}
+
+section.module.parallax-1{
+    background-image: url("https://s2-autoesporte.glbimg.com/UN6nKFPAN1wZU1i3zX7SZRp8XnI=/0x0:1920x1080/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/G/T/eIYs20TxW1Cs05UcQYtw/vw-golf-r-20-years-edition-00008-1.jpg");
+    opacity: 0.7;
+}
+
+.area-1{
+    position: absolute;
+    top: 50%; /* Ajuste para posicionar verticalmente */
+    left: 50%; /* Ajuste para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno do texto */
+    z-index: 1; 
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 200;
+}
+
+.destaque-3{
+    font-size: 30px;
+}
+
+/* CSS Golf */
+
+@keyframes animacao{
+    from {.Golf;}
+    to {.Melhor;}
+}
+
+#carouselExample{
+    margin-bottom: 100px;
+    animation-name: animacao;
+    animation-duration: 2s;
+}
+
+
+/* CSS IMG Jetta */
+#jetta{
+    margin-bottom: 100px;
+    margin-right: 230px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#jetta img{
+    width: 100%;
+    margin-left: 150px;
+    overflow: hidden;
+}
+
+/* CSS Quem Somos */
+
+.box_5{
+    margin-bottom: 10px;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.box_5 img{
+    width: 2500px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+#box_somos{
+    float: left;
+    text-align: center;
+    font-size: large;
+    font-size: 25px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.text_3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#text_4{
+    color: #182d57;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+    font-size: 34px;
+    letter-spacing: 5px;
+}
+
+.box_6{
+    width: 80%;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 130px;
+    align-items: center;
+}
+
+.box_6 p{
+    font-size: large;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.box_6 img{
+    justify-content: center;
+    display: grid;
+    margin: auto;
+}
+
+/* CSS MSV */
+.box_5{
+    display: flex;
+    width: 100%;
+}
+
+.box_msv{
+    width: 80%;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 130px;
+    font-size: large;
+    font-size: 25px; 
+    margin-bottom: 100px;
+}
+
+.msv{
+    text-align: center;
+}
+
+.box_msv h2{
+    color: #182d57;
+    text-align: center;
+}
+
+.valores{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+.valores  li::before {
+    content: "•"; /* Caractere de marcador (bullet) */
+    margin-right: 10px; /* Espaço entre o marcador e o texto */
+    font-size: 20px; /* Ajuste o tamanho do marcador conforme necessário */
+}
+
+/* Concessionário */
+
+#box-conjunto{
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+#box-conjunto img{
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+#text-5{ 
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+#text-5 h2{
+    color: #182d57;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 30px;
+}
+
+.list-3{
+    text-align: center;
+    font-weight: bold;
+    align-items: baseline;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.destaque-2{
+    font-size: 20px; 
+    font-family: 'Nanum Gothic', sem serifa;
+    font-family: 'Roboto Flex', sem serifa;
+    font-weight: 100;
+    color: #182d57;
+}
+
+.concessionario {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Maps */
+ #box-7{
+    align-items: center;
+    justify-content: center;
+    background-color: #ff9807;
+    margin-bottom: 100px;
+} 
+
+.titulo{
+    text-align: center;
+
+}
+
+.maps{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ff9807;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+
+    .nivus #text{
+        flex-direction: column-reverse;
+    }
+
+    #box_3{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+
+    .nivus img{
+        width: 100%;  
+        margin-bottom: 30px; 
+        padding: 30px; 
+    }
+
+    .historia{
+        margin-bottom: 40px;
+    }
+
+    .bold{
+        margin-bottom: 50px;
+    } 
+
+   
+    #box-conjunto{
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+ 
+    .img_Gold{
+        text-align: center;
+        width: 100%;
+    }
+
+    #text-5{
+        width: 50%;
+        float: left;
+        margin-bottom: 50px;
+        padding-right: 10px;
+    }
+
+    .list-3{
+        font-size: 15px;
+    }
+
+    #text-5 h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .destaque-2 .concessionario{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-fluid{
+        flex-direction: column;
+    }
+
+    .main{
+        margin-bottom: 50px;
+    }
+
+    .box_6{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .box_6 p{
+        margin-bottom: 70px;
+    }
+
+    .box_6 img{
+        margin-bottom: 50px;
+    }
+
+    .box_msv{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    #box-conjunto .img_Gold{
+        flex-direction: column-reverse;
+    }
+
+    #box-conjunto{
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+
+    #box-conjunto img{
+        width: 90%;
+    }
+
+    #text-5{
+        width: 50%;
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+    .container-fluid{
+        flex-direction: column;
+    }
+
+    .main{
+        margin-bottom: 50px;
+    }
+
+    .nivus #text{
+        flex-direction: column-reverse;
+    }
+
+    #box_3{
+        display: block;
+        margin: auto;
+    }
+
+    .nivus img{
+        width: 100%;  
+        margin-bottom: 50px;
+        padding: 20px;  
+    }
+
+    .historia{
+        margin-bottom: 40px;
+    }
+
+    .bold{
+        margin-bottom: 50px;
+    }
+
+    .area-1{
+        align-items: center;
+        font-weight: 250;
+    }
+
+    #carouselExample{
+        margin-bottom: 30px;
+    }
+
+    #jetta{
+        margin-bottom: 50px;
+    } 
+
+    #jetta img{
+        width: 100%;
+    }
+
+    .box_5 #box_somos{
+        flex-direction: column-reverse;
+    }
+
+    .box_5{
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .box_5 img{
+        width: 80%;
+        overflow: hidden;
+        margin-bottom: 30px;
+        padding: 10px;
+        margin-left: 6rem;
+    }
+
+    #box_somos{
+        margin-right: 3rem;
+        text-align: center;
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .text_3{
+        margin-left: 50px;
+    }
+
+    #text_4{
+        width: 90%;
+        font-size: 28px;
+        margin-left: 60px;
+    }
+
+    .box_6{
+        width: 100%;
+        padding: 7px;
+    }
+
+    .box_6 p{
+        font-size: 20px;
+        margin-right: 230px;
+    }
+
+    .box_6 img{
+        width: 80%;
+        padding: 3rem;
+        margin-right: 30rem;
+        margin-bottom: 40px;
+    }
+
+    .box_msv{
+        font-size: 20px; 
+        margin: auto;
+    }
+
+    .msv{
+        margin-bottom: 30px;
+    }
+
+    #box-conjunto .img_Gold{
+        flex-direction: column-reverse;
+    }
+
+    #box-conjunto{
+        display: grid;
+        margin-bottom: 50px;
+    }
+
+    #box-conjunto img{
+        width: 80%;
+        margin-left: 90px;
+        margin-bottom: 30px;
+    }
+
+    #text-5{
+        width: 80%;
+        margin-bottom: 50px;
+        margin-left: 120px;
+    } 
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+
+    .nivus #text{
+        flex-direction: column-reverse;
+    }
+
+    #box_2 h2{
+        font-size: 25px;
+    }
+    
+    #box_2 h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .historia{
+        font-size: 15px;
+    }
+
+    .bold{
+        font-size: 16px;
+    }
+    
+    #box_3{
+        display: block;
+        margin: auto;
+    }
+
+    .nivus img{
+        width: 100%;  
+        margin-bottom: 20px;
+        padding: 20px;  
+    }
+
+    .historia{
+        margin-bottom: 40px;
+    }
+
+    .bold{
+        margin-bottom: 50px;
+    }
+
+    #interior{
+        margin-bottom: 30px;
+    }
+
+    #carouselExample{
+        display: none;
+    }
+
+    #jetta{
+        margin-bottom: 20px;
+    }
+
+    .box_5 #box_somos{
+        flex-direction: column-reverse;
+    }
+
+    .box_5{
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .box_5 img{
+        width: 80%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding: 10px;
+        margin-left: 6rem;
+    }
+
+    #box_somos{
+        margin-right: 3rem;
+        text-align: center;
+        padding: 40px;
+        font-size: 15px;
+    }
+    
+    .text_3{
+        margin-left: 50px;
+    }
+
+    #text_4{
+        width: 90%;
+        font-size: 17px;
+        margin-left: 60px;
+        margin-bottom: 13px;
+    }
+
+    .box_6{
+        width: 100%;
+        padding: 7px;
+    }
+
+    .box_6 p{
+        font-size: 15px;
+        margin-right: 230px;
+    }
+
+    .box_6 img{
+        width: 80%;
+        padding: 2rem;
+        margin-right: 30rem;
+        margin-bottom: 7px;
+    }
+
+    .box_msv{
+        font-size: 15px; 
+        margin: auto;
+    }
+
+    .msv{
+        margin-bottom: 30px;
+    }
+
+    #box-conjunto .img_Gold{
+        flex-direction: column-reverse;
+    }
+
+    #box-conjunto{
+        display: grid;
+        margin-bottom: 0px;
+    }
+
+    #box-conjunto img{
+        width: 80%;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+
+    #text-5{
+        width: 80%;
+        margin-bottom: 50px;
+        margin-left: 120px;
+    } 
+
+    .concessionario {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #text-5 h2{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .list-3{
+        font-size: 15px;
+    }
+
+    .destaque-2{
+        font-size: 18px;
+    }
+
+    #box-7{
+        margin-bottom: 40px;
+    } 
+
+    .titulo{
+       font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 380px) and (max-width: 701px){
+    .main{
+        margin-bottom: 10px;
+    }
+
+    .nivus #text{
+        flex-direction: column-reverse;
+    }
+
+    #box_2 h2{
+        font-size: 18px;
+    }
+    
+    #box_2 h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .historia{
+        font-size: 12px;
+    }
+
+    .bold{
+        font-size: 14px;
+    }
+
+    #box_3{
+        display: block;
+        margin: auto;
+    }
+
+    .nivus img{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    #jetta{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    } 
+
+    #jetta img{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #carouselExample{
+        display: none;
+    }
+
+    #interior{
+        margin-bottom: 15px;
+    }
+
+    .box_5 #box_somos{
+        flex-direction: column-reverse;
+    }
+
+    .box_5{
+        width: 100%;
+        display: block;
+    }
+
+    .box_5 img{
+        width: 80%;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding: 10px; 
+        margin-left: 4rem;
+    }
+
+    #box_somos{
+        margin-right: 3rem;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .text_3{
+        margin-left: 50px;
+    }
+
+    #text_4{
+        width: 90%;
+        font-size: 17px;
+        margin-left: 60px;
+        margin-bottom: 13px;
+    }
+
+    .box_6{
+        width: 100%;
+        padding: 7px;
+        margin-left: 80px;
+    }
+
+    .box_6 p{
+        font-size: 15px;
+        margin-right: 150px;
+        margin-bottom: 10px;
+    }
+
+    .box_6 img{
+        width: 80%;
+        padding: 2rem;
+        margin-right: 30rem;
+        margin-bottom: 7px;
+    }
+
+    .box_msv{
+        font-size: 15px; 
+        margin: auto;
+    }
+
+    .msv{
+        margin-bottom: 10px;
+    }
+
+    #box-conjunto .img_Gold{
+        flex-direction: column-reverse;
+    }
+
+    #box-conjunto{
+        display: grid;
+        margin-bottom: 0px;
+    }
+
+    #box-conjunto img{
+        width: 80%;
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+
+    #text-5{
+        width: 80%;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    } 
+
+    .concessionario {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #text-5 h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .list-3{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    .destaque-2{
+        font-size: 18px;
+    }
+
+    #box-7{
+        margin-bottom: 40px;
+    } 
+
+    .titulo{
+       font-size: 18px;
+    }
+
+    .maps{
+        padding: 10px;
+        width: 80%;
+        height: 100vh;
+    }
+
+}
